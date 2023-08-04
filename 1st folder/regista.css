@@ -1,0 +1,58 @@
+html{
+  backdrop-filter: blur(10px);
+}
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(252, 163, 17);
+  margin: 0;
+  padding: 0;
+  background-image: url('images/Black Flatlay Photo Motivational Finance Quote Facebook Cover.png');
+  backdrop-filter: blur(1px);
+  width: max-content;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.card-header {
+  padding: 15px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.card-body {
+  padding: 20px;
+  margin-right:20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-right:20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right:30px;
+}
+
+textarea {
+  resize: none;
+}
+button{
+  border:solid;
+  border-color: rgb(252, 163, 17);
+}
+input{
+  border:solid;
+  border-color: rgb(252, 163, 17);
+}
+textarea{
+  border:solid;
+  border-color: rgb(252, 163, 17);
+}

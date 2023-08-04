@@ -1,0 +1,7 @@
+para = "my selected domain is the Student Management System. In this system, we manage student information, academic records, and administrative tasks related to students. The domain name is Student Management System"
+search_word = "student"
+para_lower = para.lower()  # Convert both to lower
+search_word_lower = search_word.lower()
+words = para_lower.split() #split divides the para to words
+frequency = words.count(search_word_lower)
+print(f"The word '{search_word}' appears {frequency} times in the paragraph.")

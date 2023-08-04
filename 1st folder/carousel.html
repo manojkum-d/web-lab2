@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="corsel.css">
+</head>
+<body>
+
+<div class="carousel">
+  <div class="slides">
+    <div class="slide"><img src="images/sjre.png"></div>
+    <div class="slide" ><img src="images/cmrpu.png"></div>
+    <div class="slide" ><img src="images/kristu-jayanti-college-logo-32BF7E7E3A-seeklogo.com.png"></div>
+    <div class="slide" ><img src="images/Christuniversitylogocolour.jpg"></div>
+
+  </div>
+
+  <div class="nav">
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+  </div>
+</div>
+
+<button onclick="openModal()">Open Modal</button>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>Modal Title</h2>
+    <p>
+        <ol>
+            <li>10TH:SJR PUBLIC School</li>
+            <li>PUC:CMR NATIONAL PU COLLEGE</li>
+            <li>UNDERGRADUATION:KRISTU JAYANTI COLLEGE</li>
+            <li>POSTGRADUATION:CHRIST UNIVERSITY</li>
+        </Ol>
+    </p>
+  </div>
+</div>
+
+<script src="corsel.js"></script>
+
+</body>
+</html>

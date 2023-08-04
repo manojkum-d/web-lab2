@@ -1,0 +1,428 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: black; */
+    font-family:"Arial Rounded MT", Arial, sans-serif;
+    /* font-family: "Roboto", Arial, sans-serif; */
+    color: white;
+    /* height: 100%; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column;  */
+}
+h1{
+    text-align: center;
+    /* margin-top: 30px; */
+    color: rgb(252, 163, 17);
+}
+.whole{
+    display: flex;
+}
+
+.whole .right{
+    display: flex;
+    text-align: center;
+    width: 720px;
+    height: 600px;
+    color:white;
+    background-color: rgb(20, 33, 61);
+    margin-top: 10px; 
+    border-radius: 30px;
+    
+}
+
+.whole .right h2{
+    text-align: center;
+    height: 100px;
+    margin-top: 0px;
+   padding-top: 30px;
+    padding-left: 20px;
+    color: rgb(252, 163, 17);
+    font-size: xxx-large;
+    
+}
+
+
+
+.whole .left{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    /* color: rgb(252, 163, 17); */
+    width: 250px;
+    height: 600px;
+    background-color: rgb(20, 33, 61);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+    
+}
+.whole .left img{
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 25px;
+    /* padding-left: 0px; */
+    background-color: rgb(20, 33, 61);
+
+}
+/* .whole .left p{
+    display: inline;
+    text-align: left;
+    position:relative;
+} */
+#pp{
+    position: absolute;
+    float: center;
+        margin-top: 270px;
+        margin-left: 55px;
+        font-weight: bolder;
+        color: rgb(252, 163, 17);
+        background-color: rgb(20, 33, 61);
+   
+}
+#me{
+    position: absolute;
+    margin-top: 100px;
+    margin-left:10px;
+    margin-right: 10px;
+    text-align:left;
+    /* font-family: sans-serif; */
+    font-family: "Roboto", Arial, sans-serif;
+    /* color: rgb(252, 163, 17); */
+    font-size: 20px;    
+    /* word-wrap: break-word; */
+    width:700px;
+    /* overflow:hidden; */
+    /* justify-content: center; */
+    background-color: rgb(20, 33, 61);
+
+}
+
+#linkin{
+    height:50px;
+    width: 50px;
+    padding-left: 10PX;
+    margin: auto;
+    background-color: rgb(20, 33, 61);
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none; 
+    background-color: rgb(20, 33, 61);
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 10px; */
+  }
+
+ #insta{
+    border-radius: 10px;
+    /* padding-top: 10px; */
+    /* margin-top: 15px; */
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: auto;
+    height:130px;   
+    width: 120px;
+ }
+.right nav{
+    background-color: rgb(20, 33, 61);
+    width: 600px;
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.nav a{
+  /* padding-bottom: 10px; */
+  margin-bottom: 10px;
+}
+
+.last{
+    display: flex;
+    /* text-align: center; */
+    width: 800px;
+    height: 600px;
+    color:white;
+    background-color: rgb(20, 33, 61);
+    margin-top: 10px; 
+    margin-right: 20px; ;
+    border-radius: 30px;
+    margin-left: 20PX;
+
+}
+.last h2{
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    height: max-content;
+    margin-top: 0px;
+    
+    margin-right: 1000px;
+   padding-top: 30px;
+   padding-left:60px ;
+    /* padding-left: 20px; */
+    color: rgb(252, 163, 17);
+    background-color: rgb(20, 33, 61);
+    border-radius: 20px;
+    font-size: xx-large;
+    position:absolute;
+}
+
+.last .certificate{
+    display: inline-block;
+    align-items: left;
+    /* justify-content: center; */
+    height:225px;
+    width: 300px;
+    position: relative;
+    border: solid;
+    border-color: black;
+    /* margin-top: 50px; */
+    margin-top: 70px;
+    margin-bottom: none;
+    margin-left: 20px;
+    margin-right: auto;
+    border-radius: 10px;
+    /* box-shadow: 0px 20px 0px 0px; */
+    /* margin: 100px 50px 20px 50px; */
+    /* padding-left: 0px; */
+    
+    background-color: rgb(20, 33, 61);
+}
+
+.last .certificate2{
+    display: inline-block;
+    align-items: left;
+    /* justify-content: center; */
+    height:225px;
+    width: 300px;
+    position: relative;
+    border: solid;
+    border-color: black;
+    /* margin-top: 50px; */
+    margin-top: 20px;
+    margin-bottom: none;
+    margin-left: 20px;
+    margin-right: auto;
+    border-radius: 10px;
+    /* margin: 100px 50px 20px 50px; */
+    /* padding-left: 0px; */
+    
+    background-color: rgb(20, 33, 61);
+}
+
+.flexcontainer{
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(20, 33, 61);
+    margin:auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .whole {
+        flex-direction: column; /* Change flex direction to stack elements vertically */
+    }
+
+    .whole .right, .last {
+        width: 100%; /* Set the width to 100% for smaller screens */
+    }
+
+    .whole .left {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        margin-left: 0; /* Remove left margin on smaller screens */
+        margin-right: 0; /* Remove right margin on smaller screens */
+    }
+
+    .whole .left img {
+        margin: 0 auto; /* Center the image horizontally on smaller screens */
+    }
+
+    .last h2 {
+        width: 100%; /* Set the width to 100% for smaller screens */
+        margin-right: 0; /* Remove right margin on smaller screens */
+    }
+}
+
+/* .hero{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/wallpaperflare.com_wallpaper.jpg");
+    background-color: none;
+} */
+#heroo{
+    background-color: none;
+}
+
+
+/* Add styles for the hero section */
+/* .hero {
+    background-image: url('images/Black Flatlay Photo Motivational Finance Quote Facebook Cover.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: rgb(252, 163, 17);
+  }
+  
+  .hero p {
+    font-size: 24px;
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(252, 163, 17);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+
+  .parallax{
+    height: 500px; 
+   
+    /* height: 100%; */
+    /* opacity: 10px; */
+    /* transition: opacity 1s ease-out; */
+    background-color: black;
+    /* backdrop-filter: blur(1000000px); */
+    background-image: url('images/gra.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+  .carousel {
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    width: 400%;
+    background-color: white;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-size: 24px;
+  }
+  
+  #slide1 {
+    margin-left: 0;
+    background-color: white;
+  }
+  #slide2 {
+    margin-left: -100%;
+    background-color: white;
+  }
+  #slide3 {
+    margin-left: -200%;
+  }
+  #slide4 { /* New slide */
+    margin-left: -300%;
+  }
+  
+  .navi {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: #080000;
+    cursor: pointer;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    /* z-index: 1; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: rgb(12, 0, 0);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+  }
+  
+  .close {
+    color: #ff0000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  img{
+    width: 300px;
+  }
+
+  /* #modal {
+    margin-left: 60%;
+
+  } */
+  
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    /* padding-top: 20px; */
+    margin-top:20px;
+}
+
+  
+
+  
